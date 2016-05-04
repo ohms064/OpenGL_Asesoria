@@ -125,6 +125,11 @@
     <ClCompile Include="Version8.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Materiales\asteroides.mtl" />
+    <None Include="Materiales\bala.mtl" />
+    <None Include="Materiales\enemigo.mtl" />
+    <None Include="Materiales\estrella.mtl" />
+    <None Include="Materiales\test.mtl" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +141,37 @@
     <ClInclude Include="soil\stbi_DDS_aug.h" />
     <ClInclude Include="soil\stbi_DDS_aug_c.h" />
     <ClInclude Include="soil\stb_image_aug.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Materiales\asteroides.jpg" />
+    <Image Include="Materiales\bala.jpg" />
+    <Image Include="Materiales\enemigo.jpg" />
+    <Image Include="Materiales\imageA.png" />
+    <Image Include="Materiales\imageC.png" />
+    <Image Include="Materiales\nubes.png" />
+    <Image Include="Materiales\test1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Materiales\asteroides.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Materiales\bala.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Materiales\enemigo.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Materiales\estrella.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Materiales\test.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

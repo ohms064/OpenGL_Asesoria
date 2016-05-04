@@ -1,4 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
+#define DIRECTORY "Materiales/"
 #include <windows.h>
 //#include <wingdi.h>
 #include <stdlib.h>
@@ -52,14 +53,14 @@ void Init()
 	glEnable(GL_LIGHT0);
       glEnable(GL_LIGHTING);
 
-	model = glmReadOBJ("test.obj");
-	model2 = glmReadOBJ("enemigo.obj");
+	model = glmReadOBJ(DIRECTORY"test.obj");
+	model2 = glmReadOBJ(DIRECTORY"enemigo.obj");
 
 		
 	
 	    tex1 = SOIL_load_OGL_texture(
 			//EDIFICIOS
-                                   "imageA.png",
+									DIRECTORY"imageA.png",
 
                                    SOIL_LOAD_AUTO,
 
@@ -74,7 +75,7 @@ void Init()
 
 		tex2 = SOIL_load_OGL_texture(
 			//NUBES
-			"nubes.png",
+			DIRECTORY"nubes.png",
 
 			SOIL_LOAD_AUTO,
 
@@ -92,7 +93,7 @@ void Init()
 
 		tex3 = SOIL_load_OGL_texture(
 			//edificios
-			"imageC.png",
+			DIRECTORY"imageC.png",
 
 			SOIL_LOAD_AUTO,
 

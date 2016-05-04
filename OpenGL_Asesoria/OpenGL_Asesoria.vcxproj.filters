@@ -56,7 +56,39 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="Materiales\bala.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\enemigo.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\estrella.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="packages.config">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\test.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\asteroides.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\asteroides.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\bala.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\enemigo.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\estrella.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Materiales\test.obj">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glm\glmint.h">
@@ -83,5 +115,28 @@
     <ClInclude Include="soil\stbi_DDS_aug_c.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Materiales\bala.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Materiales\enemigo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Materiales\imageA.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Materiales\imageC.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Materiales\nubes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Materiales\test1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Materiales\asteroides.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
